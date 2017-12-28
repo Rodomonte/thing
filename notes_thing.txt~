@@ -7,7 +7,6 @@
 ! How to play as Wave without Concept? Wave depends on Concept?
 ! All Concepts rely on Being/Self.
 
-! Lol make all synonyms randomly select in DAG, no one could talk about builds with each other
 
 ! How to play as Concept: Make AIs aware of thing to partially control them
 
@@ -29,6 +28,7 @@ Not just a tree, since things can have multiple parent REQs. Not just a graph, s
 - For req, list no ancestors of any other req for that term.
 - If 2 or more things work as reqs but only one OR another, the parent of those reqs is the parent of this term. Only when ALL reqs are required simultaneously
   for the same thing would you list both as reqs.
+- Each term besides Nothing must be a Thing that another Thing can be
 - If 2 things seem to depend on each other (Change/Time), ask, could one conceivably exist without the other? That's the parent.
 
 - I need a process for designing this graph. Prioritization of tasks to speed it up. Currently going top down. Could...
@@ -41,10 +41,7 @@ CONCEPT
 
 System - Relation, Group
 Stability/Volatility - Time, System
-Precision/Accuracy - Action, ?
-
-Task/Job -
-Planning/Scheduling/Priority - Quantity (or derivative), Task
+Precision/Accuracy - Action
 
 Identification - Attribute, Relation - Can
 Observation - Action, Identification - Can Identify
@@ -53,7 +50,5 @@ Recollection -
 Pattern - Relation,
 
 
-OBJECT
 
-Machine - System, Planning
-Automaton - Machine, ?
+OBJECT
