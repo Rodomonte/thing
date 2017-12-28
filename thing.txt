@@ -1,0 +1,93 @@
+LV  TERM                    ENG DEF                                 REQ                     GAME
+
+
+ 0  Nothing                 -                                       -                       Start, can view everything viewable
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 1  Thing                   Anything and everything                 -                       Appears as you when a Thing Creates an autonomous Thing
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 2  Concept                 Abstract Thing outside of Time          Thing                   Gains a HUD, can view details of Things
+                                                                                            - Only self w/o Observation
+                                                                                            - Starts w/ view of single meter (strength through proliferation?)
+
+    Object                  Physical Thing bound by Time            Thing                   Gains shape, can collide with other Objects
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 3  Attribute               Characteristic of a Thing               Concept                 Sees more self details (which ones?)
+
+    Action                  Process, operation                      Concept                 ?
+
+    Relation                How two Things are connected            Concept                 Can form connections between other Things (specifically..?)
+
+    Group                   Collection of 0+ Things                 Concept                 Can join Groups
+
+    Particle                Protons, electrons, ...                 Object                  ?
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 4  Creation                Spawn a new Thing
+
+    Change                  Mutation of a Thing's Attribute         Attribute
+
+    Type                    Class of Thing                          Attribute
+
+    Quantity                Number of a Thing in some Group         Attribute
+                                                                    Group
+
+    Control                 Capability to influence Action          Action
+                                                                    Relation
+
+    Ownership               Capability to possess                   Relation
+
+    Need                    The requirement of a Thing by another   Relation
+                            Thing in order to satisfy a demand
+
+    Environment             The Group of Things observable or       Relation
+                            accessible by a Thing                   Group
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 5  Time                    Progress of existence                   Quantity                A physical Object need not exist for Time to have meaning, since
+                                                                                            one can consider a wholly conceptual simulation dependent upon Time.
+
+    Location                Position in Environment                 Quantity
+                                                                    Environment
+
+    List                    An ordered Group of Things              Attribute
+                                                                    Relation
+
+    Observation             When an Attribute of a Thing is         Attribute
+                            considered by another Thing             Environment
+
+    Transfer                Movement of a Thing to a different
+                            Location
+
+    Negation                -> Opposite of a Thing within its       Action                  Only possible if it has only 1 sibling
+                            parent's scope
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 6  Rate                    The speed at which a Thing Changes      Change
+                                                                    Time
+
+    Plan                    A scheduled Action                      Action
+                                                                    Time
+
+    Index                   Position of a Thing in a List           List
+                                                                    Quantity
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ?  Energy                  tbd                                     Attribute
+
+
+    Template                tbd                                     Attribute
+                                                                    tbd
+
+    Life                    Energy animating an object for the      Object
+                            original purpose of reproduction        Energy
+                                                                    Reproduction
