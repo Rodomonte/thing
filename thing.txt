@@ -1,11 +1,48 @@
-LV  TERM                    ENG DEF                                 REQ                     GAME
+ADD
+
+System - Relation, Group
+Stability/Volatility - Time, System
+Precision/Accuracy - Action, ?
+
+Task/Job - Relation, Action
+Planning/Scheduling/Priority - Quantity (or derivative), Task
+
+Identification - Attribute, Relation - Can
+Observation - Action, Identification - Can Identify
+Recognition - Attribute, Observation - Can permanently maintain details about specific things
+Recollection -
+Pattern - Relation,
+
+Machine - System, Planning, Power?
+Automaton - Machine, ?
 
 
- 0  Nothing                 -                                       -                       Start, can view everything viewable
+MAYBE
 
+Purpose - Relation
+
+  ->  ->
+- Tier 1: Thing: A dot with a Location, can Move through Barriers
+  -> ? to become Concept, ? for Object ->
+- Tier 2:
+  - Concept: Gain a HUD, can encourage Automatons to Think
+    ->
+  - Object: Become physical,
+- Tier 3:
+  - Attribute:
+  - Action:
+  - Relation:
+  - Group:
+  - Particle:
+  - Field:
+
+
+LV  TERM            DEF                             REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 1  Thing                   Anything and everything                 -                       Appears as you when a Thing Creates an autonomous Thing
+ 1  Thing           Anything and everything         -               Dot with location. Can view all uncloaked Objects in grayscale, no self.
+                                                                    -> Concept: ?
+                                                                    -> Object: Stay in close proximity to a Creator (color slowly inverts?)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -25,13 +62,14 @@ LV  TERM                    ENG DEF                                 REQ         
 
     Group                   Collection of 0+ Things                 Concept                 Can join Groups
 
-    Particle                Protons, electrons, ...                 Object                  ?
+    Particle                Constituents of matter                  Object                  ?
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 4  Creation                Spawn a new Thing
+ 4  Creation                Spawn a new Thing                       Action
+                                                                    Relation?
 
-    Change                  Mutation of a Thing's Attribute         Attribute
+    Mutation                Change of a Thing's Attribute           Attribute
 
     Type                    Class of Thing                          Attribute
 

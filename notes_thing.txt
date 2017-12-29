@@ -1,3 +1,27 @@
+Premise: In the inorganic universe of Automania, an anomaly is occurring. Things are becoming self-aware. One Thing was discovered to make up all things
+         conceivable. Even the thoughts in our minds. It was recently discovered how to capture these Things, but control them, not so much. This is the result.
+
+Early Gameplay: See DAG early tiers
+
+Late Gameplay:
+
+Object:
+Solo/Team:
+- Competitive:
+  -
+Society:
+- Concept-focused jobs:
+  - Philosophers: Have Realizations using Induction/Deduction of Learned Concepts to Identify DAG neighbors
+  - Scientists: Perform Experiments to Learn Identified Concepts
+  - Researchers: Gather and supply data to all that use it
+- Object-focused jobs:
+  - Engineers/Inventors: Create Machines/Devices
+  - Mechanics/Technicians: Maintain Machines/Devices
+  - Farmers: Feed
+
+Pure Concept:
+- All about control, no self
+
 ! Should Time depend on Object? Space on Concept? Everything could depend on Concept since everything could be simulated.
   Bad reasoning for Time to not depend on Object. Time and Space depend on both??
 ! Should Things have Observed/Learned status?
@@ -34,26 +58,3 @@ Not just a tree, since things can have multiple parent REQs. Not just a graph, s
 - I need a process for designing this graph. Prioritization of tasks to speed it up. Currently going top down. Could...
   - Reasearch+list all Thing ideas, then add details or rule them out. This allows the DAG to fill naturally, no wasted time pondering potential relations
   - Research specific Things to find new Things close to it
-
-THING IDEAS
-
-CONCEPT
-
-System - Relation, Group
-Stability/Volatility - Time, System
-Precision/Accuracy - Action, ?
-
-Task/Job -
-Planning/Scheduling/Priority - Quantity (or derivative), Task
-
-Identification - Attribute, Relation - Can
-Observation - Action, Identification - Can Identify
-Recognition - Attribute, Observation - Can permanently maintain details about specific things
-Recollection -
-Pattern - Relation,
-
-
-OBJECT
-
-Machine - System, Planning
-Automaton - Machine, ?
