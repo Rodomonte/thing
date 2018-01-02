@@ -58,3 +58,14 @@ Not just a tree, since things can have multiple parent REQs. Not just a graph, s
 - I need a process for designing this graph. Prioritization of tasks to speed it up. Currently going top down. Could...
   - Reasearch+list all Thing ideas, then add details or rule them out. This allows the DAG to fill naturally, no wasted time pondering potential relations
   - Research specific Things to find new Things close to it
+
+! How to get from Particle to Solid Object? Need a way to gather other particles to assemble into atoms/molecules.
+! Could playing a particle even be fun? What can you do? Simply combine yourself into something greater?
+  - Particle -> Graviton, Photon, Up/down quark?
+
+! Solid Object -> ?
+  - Operate a Bot (AIs are building these for Objects to operate)
+  - Press buttons on machines to manufacture parts
+  v Salvage parts from battles/junkyard
+  v Have a player/AI teach creation/assembly methods
+  ! How to move the parts to a location where they can be assembled? Can't communicate yet!

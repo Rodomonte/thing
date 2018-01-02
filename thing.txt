@@ -7,7 +7,7 @@ Precision/Accuracy - Action, ?
 Task/Job - Relation, Action
 Planning/Scheduling/Priority - Quantity (or derivative), Task
 
-Identification - Attribute, Relation - Can
+Identification - Attribute, Relation -
 Observation - Action, Identification - Can Identify
 Recognition - Attribute, Observation - Can permanently maintain details about specific things
 Recollection -
@@ -20,37 +20,22 @@ Automaton - Machine, ?
 MAYBE
 
 Purpose - Relation
-
-  ->  ->
-- Tier 1: Thing: A dot with a Location, can Move through Barriers
-  -> ? to become Concept, ? for Object ->
-- Tier 2:
-  - Concept: Gain a HUD, can encourage Automatons to Think
-    ->
-  - Object: Become physical,
-- Tier 3:
-  - Attribute:
-  - Action:
-  - Relation:
-  - Group:
-  - Particle:
-  - Field:
+Speculation - Observation, Recollection - Can Identify new neighbors in DAG
 
 
 LV  TERM            DEF                             REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  1  Thing           Anything and everything         -               Dot with location. Can view all uncloaked Objects in grayscale, no self.
-                                                                    -> Concept: ?
-                                                                    -> Object: Stay in close proximity to a Creator (color slowly inverts?)
+                                                                    -> Concept/Object: Stay in close proximity to a Philosopher/Creator (color slowly inverts)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 2  Concept                 Abstract Thing outside of Time          Thing                   Gains a HUD, can view details of Things
+ 2  Concept         Abstract Thing                  Thing           Gain a HUD, can view details of Things
                                                                                             - Only self w/o Observation
                                                                                             - Starts w/ view of single meter (strength through proliferation?)
 
-    Object                  Physical Thing bound by Time            Thing                   Gains shape, can collide with other Objects
+    Object          Physical Thing                  Thing                   Gains shape, can collide with other Objects
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -67,7 +52,7 @@ LV  TERM            DEF                             REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  4  Creation                Spawn a new Thing                       Action
-                                                                    Relation?
+                                                                    Relation
 
     Mutation                Change of a Thing's Attribute           Attribute
 
