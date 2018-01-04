@@ -23,31 +23,42 @@ Purpose - Relation
 Speculation - Observation, Recollection - Can Identify new neighbors in DAG
 
 
-LV  TERM            DEF                             REQ             GAME
+LV  TERM            REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 1  Thing           Anything and everything         -               Dot with location. Can view all uncloaked Objects in grayscale, no self.
-                                                                    -> Concept/Object: Stay in close proximity to a Philosopher/Creator (color slowly inverts)
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
- 2  Concept         Abstract Thing                  Thing           Gain a HUD, can view details of Things
-                                                                                            - Only self w/o Observation
-                                                                                            - Starts w/ view of single meter (strength through proliferation?)
-
-    Object          Physical Thing                  Thing                   Gains shape, can collide with other Objects
+ 1  Thing           -               Small moveable dot. No HUD. Gray bkgd, all Objects black
+                                    -> Concept/Object: Stay in close proximity to a Philosopher/Creator.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 3  Attribute               Characteristic of a Thing               Concept                 Sees more self details (which ones?)
+ 2  Concept         Thing           Lose dot, gain HUD w/ DAG, Energy meter?
 
-    Action                  Process, operation                      Concept                 ?
+    Object/         Thing           Grow, collide w/ other Objects
+    Particle
 
-    Relation                How two Things are connected            Concept                 Can form connections between other Things (specifically..?)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    Group                   Collection of 0+ Things                 Concept                 Can join Groups
+ 3  Attribute       Concept         Sees more self details (which ones?)
 
-    Particle                Constituents of matter                  Object                  ?
+    Action          Concept         ?
+
+    Relation        Concept         Can form connections between other Things (specifically..?)
+
+    Group           Concept         Can join Groups
+
+    Photon          Object
+
+    Graviton        Object
+
+    Electron        Object
+
+    Quark (U/D+?)   Object          - Maintain a balance btw U/D Quark production?
+
+    Wave            Concept
+                    Object
+
+    Field           Concept
+                    Object
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
