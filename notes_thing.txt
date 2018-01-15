@@ -1,14 +1,10 @@
 Premise: In the universe of Automania, an anomaly is occurring. Things are becoming self-aware. One Thing was discovered to make up all things conceivable.
          Even the thoughts in our minds. It was recently discovered how to capture these Things, but control them, not so much. This is the result.
 
-! BIG PROBLEMS:
-1. Difference between Thing/Object/Particle?
-2. What base particles should be used?
-3. How do those particles interact?
-
 Early Gameplay:
 1. Become an Object or Concept via maintained proximity to Creator/Philosopher
-2.
+2. Concept: Proliferating thought to gain Usage to buy more Concepts?
+   Object: Interacting with other Objects to control them or improve oneself
 3. Capture particles for Atomic Assembler
    - How?
 
@@ -31,8 +27,8 @@ Late Gameplay:
     - Farmers: Gather Energy for Things
 
 DAG:
-- Each tier of Things costs more than the last (should anything in the same tier be a different cost?)
-- Each Thing costs Energy + trigger scenario to identify become
+- Each tier of Things costs less than the last (hard to become both Concept & Object)
+- Each Concept costs Thought + trigger scenario to learn
 - Each Thing has statuses (more can be added later like ownership under a society):
   Concepts: (Unidentified / Identified / Learned)
   Objects: Become, (Unidentified / Identified / Learned to Use / Learned to Create)

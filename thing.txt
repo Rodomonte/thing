@@ -11,7 +11,7 @@ Identification - Attribute, Relation -
 Observation - Action, Identification - Can Identify
 Recognition - Attribute, Observation - Can permanently maintain details about specific things
 Recollection -
-Pattern - Relation,
+Speculation - Observation, Recollection - Can Identify new neighbors in DAG
 
 Machine - System, Planning, Power?
 Automaton - Machine, ?
@@ -20,25 +20,29 @@ Automaton - Machine, ?
 MAYBE
 
 Purpose - Relation
-Speculation - Observation, Recollection - Can Identify new neighbors in DAG
+Pattern - Relation
 
 
 LV  TERM            REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 1  Thing           -               Small moveable dot. No HUD. Gray bkgd, all Objects black
-                                    -> Concept/Object: Stay in close proximity to a Philosopher/Creator.
+ 1  Thing           -               Small dot. No HUD. Gray bkgd, all Objects black
+                                    :: Move around, through Objects
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 2  Concept         Thing           Lose dot, gain HUD w/ DAG, Energy meter?
+ 2  Concept         Thing           -> Stay in close proximity to a Philosopher
+                                    Lose dot. Gain HUD w/ DAG, Energy meter?
+                                    :: Encourage thought amongst Bots within range to gain Usage
 
-    Object/         Thing           Grow, collide w/ other Objects
-    Particle
+    Object/         Thing           -> Stay in close proximity to a Creator
+    Particle                        Grow, become physical
+                                    :: Collide with other Objects (how do I progress?)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 3  Attribute       Concept         Sees more self details (which ones?)
+ 3  Attribute       Concept         -> ?
+                                    Sees more self details (which ones?)
 
     Action          Concept         ?
 
@@ -46,18 +50,22 @@ LV  TERM            REQ             GAME
 
     Group           Concept         Can join Groups
 
-    Photon          Object
+    Photon          Object          -> ?
+                                    Gain (energy, speed, momentum, intensity, frequency, wavelength)
+                                    :: Power solar panels, heat/light areas, carry EM force?,
 
-    Graviton        Object
+    Graviton        Object          -> ?
+                                    Naturally pull objects toward you
 
-    Electron        Object
+    Electron        Object          -> ?
+                                    ::
 
-    Quark (U/D+?)   Object          - Maintain a balance btw U/D Quark production?
+    Quark (U/D+?)   Object          -> ?
 
-    Wave            Concept
+    Wave            Concept         -> ?
                     Object
 
-    Field           Concept
+    Field           Concept         -> ?
                     Object
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
