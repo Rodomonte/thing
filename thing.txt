@@ -42,7 +42,7 @@ LV  TERM            REQ             GAME
                                        When a Bot thinks more, it's more likely to perform a different or new action, or learn Concept
 
     Object/         Thing           -> Stay in close proximity to a Creator
-    Particle                        Grow, become physical
+    God Particle                    Grow, become physical
                                     :: Collide with other Objects (how do I progress?)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,16 +60,20 @@ LV  TERM            REQ             GAME
     Group           Concept         Can join Groups
 
     Photon          Object          -> ?
-                                    Gain (energy, speed, momentum, intensity, frequency, wavelength)
+                                    Gain (energy -> heat radiation, speed, momentum, intensity -> light?, frequency, wavelength)?
+                                    Can only move when time is stopped, otherwise bounce around at c
                                     :: Power solar panels, heat/light areas, carry EM force?,
 
     Graviton        Object          -> ?
                                     Naturally pull objects toward you
+                                    :: Pull Objects into Particle Assembler to make molecules
 
     Electron        Object          -> ?
-                                    ::
+                                    Gain (charge, mass, spin)
+                                    :: Power circuits, heat things (conduction), short Bots
 
     Quark (U/D+?)   Object          -> ?
+                                    Gain (electric charge, mass, color charge?, spin)
 
     Wave            Concept         -> ?
                     Object
@@ -82,7 +86,7 @@ LV  TERM            REQ             GAME
  4  Creation                Spawn a new Thing                       Action
                                                                     Relation
 
-    Mutation                Change of a Thing's Attribute           Attribute
+    Change                  Mutation of a Thing's Attribute         Attribute
 
     Type                    Class of Thing                          Attribute
 
