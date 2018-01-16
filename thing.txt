@@ -23,6 +23,11 @@ Purpose - Relation
 Pattern - Relation
 
 
+GLOSSARY
+
+Thinking            Actively gaining (points?) in a Concept by:
+
+
 LV  TERM            REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,6 +39,7 @@ LV  TERM            REQ             GAME
  2  Concept         Thing           -> Stay in close proximity to a Philosopher
                                     Lose dot. Gain HUD w/ DAG, Energy meter?
                                     :: Encourage thought amongst Bots within range to gain Usage
+                                       When a Bot thinks more, it's more likely to perform a different or new action, or learn Concept
 
     Object/         Thing           -> Stay in close proximity to a Creator
     Particle                        Grow, become physical
@@ -42,9 +48,12 @@ LV  TERM            REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  3  Attribute       Concept         -> ?
-                                    Sees more self details (which ones?)
+                                    Sees characteristic details (which ones?)
+                                    :: Bots focus on: device quality improvements, learning Attribute and derivatives?
 
-    Action          Concept         ?
+    Action          Concept         -> ?
+                                    Sees own abilities (which ones?)
+                                    :: Bots focus on: learning Action and derivatives?
 
     Relation        Concept         Can form connections between other Things (specifically..?)
 
