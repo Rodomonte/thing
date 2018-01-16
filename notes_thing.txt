@@ -1,6 +1,11 @@
 Premise: In the universe of Automania, an anomaly is occurring. Things are becoming self-aware. One Thing was discovered to make up all things conceivable.
          Even the thoughts in our minds. It was recently discovered how to capture these Things, but control them, not so much. This is the result.
 
+Problems:
+- Trigger scenario for learning new Concepts can't _just_ be staying in proximity to a bot thinking about it
+  Ideas: _
+-
+
 Early Gameplay:
 1. Become an Object or Concept via maintained proximity to Creator/Philosopher
 2. Concept: Proliferating thought to gain Usage to buy more Concepts?
@@ -32,9 +37,6 @@ DAG:
 - Each Thing has statuses (more can be added later like ownership under a society):
   Concepts: (Unidentified / Identified / Learned)
   Objects: Become, (Unidentified / Identified / Learned to Use / Learned to Create)
-
-Pure Concept:
-- All about control, no self
 
 ! Should Time depend on Object? Space on Concept? Everything could depend on Concept since everything could be simulated.
   Bad reasoning for Time to not depend on Object. Time and Space depend on both??

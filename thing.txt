@@ -37,27 +37,32 @@ LV  TERM            REQ             GAME
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  2  Concept         Thing           -> Stay in close proximity to a Philosopher
-                                    Lose dot. Gain HUD w/ DAG, Energy meter?
-                                    :: Encourage thought amongst Bots within range to gain Usage
-                                       When a Bot thinks more, it's more likely to perform a different or new action, or learn Concept
+                                    Gain HUD w/ DAG, Usage meter?
+                                    :: Inspire: Encourage thought amongst Bots within range to gain Usage
+                                                When a Bot thinks more, it's more likely to perform a different or new action, or learn a Concept?
 
     Object/         Thing           -> Stay in close proximity to a Creator
-    God Particle                    Grow, become physical
-                                    :: Collide with other Objects (how do I progress?)
+    Particle                        Grow, become physical
+                                    :: Move: Collide with other Objects (how do I progress?)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 3  Attribute       Concept         -> ?
-                                    Sees characteristic details (which ones?)
-                                    :: Bots focus on: device quality improvements, learning Attribute and derivatives?
+ 3  Attribute       Concept         -> Stay in close proximity to a Bot thinking about Attribute
+                                    Observes others' Attributes
+                                    :: Inspire: Bots focus on (Quality improvements, learning Attribute & derivatives?)
 
     Action          Concept         -> ?
-                                    Sees own abilities (which ones?)
-                                    :: Bots focus on: learning Action and derivatives?
+                                    Observes others' Actions when used
+                                    W/o Action, one can observe and repeat Actions, but not Learn?
+                                    :: Inspire: Bots focus on (current Actions, learning Action & derivatives?)
 
-    Relation        Concept         Can form connections between other Things (specifically..?)
+    Relation        Concept         -> ?
+                                    Can form connections between other Things (specifically..?)
+                                    :: Inspire: Bots focus on (current Relations, making new Relations, learning Relation & derivatives)
 
-    Group           Concept         Can join Groups
+    Group           Concept         -> ?
+                                    Can join Groups that improve things
+                                    :: Inspire: Bots focus on (current Groups, joining Groups)
 
     Photon          Object          -> ?
                                     Gain (energy -> heat radiation, speed, momentum, intensity -> light?, frequency, wavelength)?
@@ -74,35 +79,39 @@ LV  TERM            REQ             GAME
 
     Quark (U/D+?)   Object          -> ?
                                     Gain (electric charge, mass, color charge?, spin)
+                                    ::
 
     Wave            Concept         -> ?
-                    Object
+                    Object          Can you be this? ... no
 
     Field           Concept         -> ?
                     Object
 
+    Force?          Concept         -> ?
+                    Object          Can move/change things that are susceptible to the particular force
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 4  Creation                Spawn a new Thing                       Action
-                                                                    Relation
+ 4  Creation        Action
+                    Relation
 
-    Change                  Mutation of a Thing's Attribute         Attribute
+    Change          Attribute
+                    Action?
 
-    Type                    Class of Thing                          Attribute
+    Quantity        Attribute
+                    Group
 
-    Quantity                Number of a Thing in some Group         Attribute
-                                                                    Group
+    Control         Action
+                    Relation
 
-    Control                 Capability to influence Action          Action
-                                                                    Relation
+    Need            Relation
 
-    Ownership               Capability to possess                   Relation
+    Type?           Attribute
 
-    Need                    The requirement of a Thing by another   Relation
-                            Thing in order to satisfy a demand
+    Ownership?      Relation
 
-    Environment             The Group of Things observable or       Relation
-                            accessible by a Thing                   Group
+    Environment     Relation
+                    Group
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
