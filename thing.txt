@@ -7,11 +7,9 @@ Precision/Accuracy - Action, ?
 Task/Job - Relation, Action
 Planning/Scheduling/Priority - Quantity (or derivative), Task
 
-Identification - Attribute, Relation -
-Observation - Action, Identification - Can Identify
-Recognition - Attribute, Observation - Can permanently maintain details about specific things
-Recollection -
-Speculation - Observation, Recollection - Can Identify new neighbors in DAG
+Identification/Recognition - Attribute, Relation - Can permanently maintain details about Things
+Observation - Action, Identification - Can Observe new details of a Thing
+Speculation - Observation, _ - Can Observe new neighbors in DAG
 
 Machine - System, Planning, Power?
 Automaton - Machine, ?
@@ -23,7 +21,20 @@ Purpose - Relation
 Pattern - Relation
 
 
+Thing reqs:
+- Name
+- Image
+- DAG tier
+- DAG links (parents+children)
+- DAG reqs/cost (how to observe/learn/become)
+- Thing interactions
+
+
 GLOSSARY
+
+-> Progression
+:: Action
+== Interaction
 
 Thinking            Actively gaining (points?) in a Concept by:
 
@@ -44,6 +55,7 @@ LV  TERM            REQ             GAME
     Object/         Thing           -> Stay in close proximity to a Creator
     Particle                        Grow, become physical
                                     :: Move: Collide with other Objects (how do I progress?)
+                                    == Object: Collide harmlessly, applying kinetic force
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
